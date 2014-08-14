@@ -20,6 +20,13 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.xiaohao.shiro.web.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/login.do</url-pattern>
+    </servlet-mapping>
 
 </web-app>
