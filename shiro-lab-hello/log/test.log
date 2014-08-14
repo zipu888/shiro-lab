@@ -287,3 +287,5 @@
 [VAMS][2014-08-14 10:07:28,663] DEBUG | Stopping session with id [a6c993f4-4302-402b-9e59-d84a4dbf52d5] | [main] org.apache.shiro.session.mgt.AbstractNativeSessionManager.stop(244)
 [VAMS][2014-08-14 10:08:14,680] INFO | Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. | [main] org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms(112)
 [VAMS][2014-08-14 10:08:14,691] INFO | Enabling session validation scheduler... | [main] org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation(230)
+[VAMS][2014-08-14 10:21:26,119] INFO | Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. | [main] org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms(112)
+[VAMS][2014-08-14 10:21:26,138] INFO | Enabling session validation scheduler... | [main] org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation(230)
