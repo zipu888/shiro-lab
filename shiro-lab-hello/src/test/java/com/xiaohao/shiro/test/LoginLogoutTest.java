@@ -18,8 +18,8 @@ public class LoginLogoutTest {
     @Test
     public void helloWorld() {
 
-        Factory<org.apache.shiro.mgt.SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
-
+       // Factory<org.apache.shiro.mgt.SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
+        Factory<org.apache.shiro.mgt.SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-realm.ini");
         //2、得到 SecurityManager 实例  并绑定给 SecurityUtils
         org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
 
