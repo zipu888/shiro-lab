@@ -11,6 +11,12 @@
         <module>shiro-lab-hello</module>
         <module>shiro-lab-jdbcRealm</module>
         <module>shiro-lab-permission</module>
+        <module>shiro-lab-web</module>
+        <module>shiro-lab-web-spring</module>
+        <module>shiro-lab-sso</module>
+        <module>shiro-lab-oauth2</module>
+        <module>shiro-lab-cache</module>
+        <module>shiro-lab-runas</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -51,6 +57,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
                 <version>1.0.7</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-web</artifactId>
+                <version>1.2.2</version>
             </dependency>
         </dependencies>
 
