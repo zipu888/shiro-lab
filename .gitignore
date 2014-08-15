@@ -21,3 +21,4 @@
 /shiro-lab-jdbcRealm/*.iml
 log
 *.iml
+/shiro-lab-oauth2-server/target

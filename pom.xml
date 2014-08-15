@@ -14,9 +14,10 @@
         <module>shiro-lab-web</module>
         <module>shiro-lab-web-spring</module>
         <module>shiro-lab-sso</module>
-        <module>shiro-lab-oauth2</module>
+        <module>shiro-lab-oauth2-server</module>
         <module>shiro-lab-cache</module>
         <module>shiro-lab-runas</module>
+        <module>shiro-lab-oauth2-client</module>
     </modules>
     <packaging>pom</packaging>
 
