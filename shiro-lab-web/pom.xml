@@ -50,7 +50,11 @@
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-web</artifactId>
         </dependency>
-
+        <!-- 集成 验证码 -->
+        <dependency>
+            <groupId>com.octo.captcha</groupId>
+            <artifactId>jcaptcha-all</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

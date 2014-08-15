@@ -19,6 +19,15 @@
         <filter-name>iniShiroFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <!--验证码filter-->
+    <filter>
+        <filter-name>captcha</filter-name>
+        <filter-class>com.xiaohao.shiro.web.filter.MyOncePerRequestFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>captcha</filter-name>
+        <url-pattern>/yanzhengma</url-pattern>
+    </filter-mapping>
     <!--登陆servlet-->
     <servlet>
         <servlet-name>loginServlet</servlet-name>
