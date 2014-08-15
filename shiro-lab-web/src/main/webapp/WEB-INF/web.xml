@@ -39,5 +39,14 @@
         <url-pattern>/logout.do</url-pattern>
     </servlet-mapping>
 
+    <!--
+    如果是在获取会话时验证了会话已过期，将抛出 InvalidSessionException；因此需要捕获这
+    个异常并跳转到相应的页面告诉用户会话已过期，让其重新登录，如可以在 web.xml 配置
+    相应的错误页面
+    -->
+    <error-page>
+        <exception-type>org.apache.shiro.session.InvalidSessionException</exception-type>
+        <location>/invalidSession.jsp</location>
+    </error-page>
 
 </web-app>
