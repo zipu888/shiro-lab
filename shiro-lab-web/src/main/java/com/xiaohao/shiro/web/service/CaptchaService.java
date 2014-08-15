@@ -13,6 +13,7 @@ public class CaptchaService {
 
     public static BufferedImage getImageChallengeForID(String id){
 
+
         BufferedImage bi =instance.getImageChallengeForID(id);
 
         return bi;

@@ -68,6 +68,6 @@ authenticated能看见
                             </shiro:lacksPermission>
                                 <hr/>
                                 <br/>
-                                <img src="yanzhengma" width="500" height="100"/>
+                                <img src="yanzhengma" width="200" height="100"/>
 </body>
 </html>

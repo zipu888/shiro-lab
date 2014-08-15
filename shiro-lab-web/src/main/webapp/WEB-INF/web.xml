@@ -26,7 +26,7 @@
     </filter>
     <filter-mapping>
         <filter-name>captcha</filter-name>
-        <url-pattern>/yanzhengma</url-pattern>
+        <url-pattern>*.yazhengma</url-pattern>
     </filter-mapping>
     <!--登陆servlet-->
     <servlet>
