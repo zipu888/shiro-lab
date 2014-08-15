@@ -22,3 +22,4 @@
 log
 *.iml
 /shiro-lab-oauth2-server/target
+/shiro-lab-oauth2-client/target
