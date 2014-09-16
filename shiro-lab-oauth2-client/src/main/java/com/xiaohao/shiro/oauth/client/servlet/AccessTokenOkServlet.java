@@ -8,6 +8,7 @@ import java.io.IOException;
 
 /**
  * Created by xiaohao on 2014/9/15.
+ * 这个类基本没有用，因为oauth要求请求code和请求accessToken的callback URL必须一致 所以这个Servlet用不上
  */
 public class AccessTokenOkServlet extends HttpServlet {
 

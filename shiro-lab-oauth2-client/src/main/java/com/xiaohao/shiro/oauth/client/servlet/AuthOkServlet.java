@@ -36,6 +36,11 @@ public class AuthOkServlet extends HttpServlet {
         req.setAttribute("code", code);
         req.setAttribute("code", code);
 
+        //取得code
+
+        //下面使用httpClient来获取accessToken
+
+
         HttpClient httpClient = new HttpClient();
         httpClient.getParams().setContentCharset("UTF-8");
         HttpMethod method = new PostMethod(Constants.generateAccessTokenUrl(code));

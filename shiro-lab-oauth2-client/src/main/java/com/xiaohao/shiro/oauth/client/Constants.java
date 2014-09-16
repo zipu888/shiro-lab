@@ -30,6 +30,10 @@ public class Constants {
     public static final String access_back_refresh_token_param ="refresh_token";
 
 
+    /**
+     *
+     * @return
+     */
     public static String generateAuthUrl(){
         StringBuffer sb = new StringBuffer(auth_url);
         sb.append("client_id=");
@@ -40,6 +44,14 @@ public class Constants {
         sb.append(auth_ok_call_back_url);
         return sb.toString();
     }
+
+    /**
+     * <p>
+     * 构造请求accessToken的请求URL
+     * <p/>
+     * @param code 用户认证授权后取得的code
+     * @return
+     */
     public static String generateAccessTokenUrl(String code){
         StringBuffer sb = new StringBuffer(access_token_url);
         sb.append("client_id=");
