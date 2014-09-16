@@ -10,7 +10,7 @@ import java.util.Collection;
 
 /**
  * Created by xiaohao on 2014/8/14.
- * 一般情况下通过集成这个抽象类型类实现自己的逻辑
+ * 一般情况下通过继承这个抽象类型类实现自己的逻辑
  */
 public class MyAbstractStrategy extends AbstractAuthenticationStrategy {
 

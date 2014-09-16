@@ -50,5 +50,47 @@
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.oltu.oauth2</groupId>
+            <artifactId>org.apache.oltu.oauth2.client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+        </dependency>
     </dependencies>
+
+    <build>
+        <finalName>cloud-school-service-center</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.10</version>
+                <configuration>
+                    <stopPort>9897</stopPort>
+                    <stopKey>xiaohao</stopKey>
+                    <webApp>
+                        <contextPath>xiaohao_test</contextPath>
+                    </webApp>
+                    <scanIntervalSeconds>3</scanIntervalSeconds>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <!--定义jetty运行的端口-->
+                            <port>9597</port>
+                        </connector>
+                    </connectors>
+                </configuration>
+            </plugin>
+            <!--使用tomcat plugin 自定义端口9999-->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat6-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>9992</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

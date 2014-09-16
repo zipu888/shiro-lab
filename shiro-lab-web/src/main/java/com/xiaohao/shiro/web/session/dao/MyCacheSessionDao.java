@@ -2,7 +2,6 @@ package com.xiaohao.shiro.web.session.dao;
 
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.mgt.eis.CachingSessionDAO;
-
 import java.io.Serializable;
 
 /**
