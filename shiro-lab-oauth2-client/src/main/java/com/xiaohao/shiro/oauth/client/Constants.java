@@ -4,7 +4,7 @@ package com.xiaohao.shiro.oauth.client;
  * Created by xiaohao on 2014/9/15.
  */
 public class Constants {
-
+    Class aClass =Object.class;
     /**
      *
      */
